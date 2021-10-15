@@ -52,35 +52,35 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero container">
         <h1 class="hero-titel">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="hero-button">Заказать услугу</button>
       </section>
-      <section class="features">
+      <section class="features container">
         <h2 hidden>Особености</h2>
         <ul class="list">
-          <li>
+          <li class="item">
             <h3 class="features-titel">Внимание к деталям</h3>
             <p class="features-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="features-titel">Пунктуальность</h3>
             <p class="features-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="features-titel">Планирование</h3>
             <p class="features-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="features-titel">Современные технологии</h3>
             <p class="features-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -89,52 +89,75 @@
           </li>
         </ul>
       </section>
-      <section class="works">
+      <section class="works container">
         <h2 class="works-titel">Чем мы занимаемся</h2>
         <ul class="list">
-          <li>
+          <li class="works-item">
             <img
+              class="works-img"
               src="./images/main-img-3.jpg"
               alt="програмист печатает на клавиатуре"
-              width="370"
+              style="width: 370px; height: 294px"
             />
           </li>
-          <li>
+          <li class="works-item">
             <img
+              class="works-img"
               src="./images/main-img-1.jpg"
               alt="девушка держит телефон"
-              width="370"
+              style="width: 370px; height: 294px"
             />
           </li>
-          <li>
+          <li class="works-item">
             <img
+              class="works-img"
               src="./images/main-img-2.jpg"
               alt="планшет с графикой"
-              width="370"
+              style="width: 370px; height: 294px"
             />
           </li>
         </ul>
       </section>
-      <section class="team">
+      <section class="team container">
         <h2 class="team-titel">Наша команда</h2>
         <ul class="list">
           <li class="team-bord">
-            <img src="./images/igor.jpg" alt="Игорь Демьяненко" width="270" />
+            <img
+              class="team-img"
+              src="./images/igor.jpg"
+              alt="Игорь Демьяненко"
+              width="270"
+            />
             <h3 class="team-name">Игорь Демьяненко</h3>
             <p class="team-text" lang="en">Product Designer</p>
           </li>
           <li class="team-bord">
-            <img src="./images/olga.jpg" alt="Ольга Репина" width="270" />
+            <img
+              class="team-img"
+              src="./images/olga.jpg"
+              alt="Ольга Репина"
+              width="270"
+            />
             <h3 class="team-name">Ольга Репина</h3>
             <p class="team-text" lang="en">Frontend Developer</p>
           </li>
           <li class="team-bord">
-            <img src="./images/nikolay.jpg" alt="Николай Тарасов" width="270" />
+            <img
+              class="team-img"
+              src="./images/nikolay.jpg"
+              alt="Николай Тарасов"
+              width="270"
+            />
             <h3 class="team-name">Николай Тарасов</h3>
             <p class="team-text" lang="en">Marketing</p>
           </li>
           <li class="team-bord">
-            <img src="./images/mihail.jpg" alt="Михаил Ермаков" width="270" />
+            <img
+              class="team-img"
+              src="./images/mihail.jpg"
+              alt="Михаил Ермаков"
+              width="270"
+            />
             <h3 class="team-name">Михаил Ермаков</h3>
             <p class="team-text" lang="en">UI Designer</p>
           </li>
@@ -142,28 +165,30 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo"
-        >Web<samp class="footer-logo">Studio</samp></a
-      >
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a href="https://www.google.com/maps/place" class="footer-address"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@example.com" class="footer-link"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380991111111" class="footer-link"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="./index.html" class="logo"
+          >Web<samp class="footer-logo">Studio</samp></a
+        >
+        <address class="address">
+          <ul class="address-list">
+            <li class="address-item">
+              <a href="https://www.google.com/maps/place" class="footer-address"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="address-item">
+              <a href="mailto:info@example.com" class="footer-link"
+                >info@example.com</a
+              >
+            </li>
+            <li class="address-item">
+              <a href="tel:+380991111111" class="footer-link"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
